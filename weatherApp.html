@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="weatherApp.css">
+    </head>
+    <body>
+      <div class="container-fluid" id="container">
+        <h1 class="text-center">FreeCodeCamp</h1>
+        <div>
+          <h2 class="text-center">Weather Display Page</h2>
+          <p id="weather" class="text-center"></p>
+          <div class="row">
+            <div class="col-lg-6">
+              <p id="temperatureDisplay" class="text-right"></p>
+            </div>
+            <div class="col-lg-6">
+              <button id="convert" class="text-center btn">Convert</button>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="footer">
+          <div class="col-lg-2 API">
+            <a href="https://darksky.net/poweredby/" target="_blank"><img src="https://darksky.net/dev/img/attribution/poweredby.png" alt="Powered by Dark Sky" width="125" height="50"></a>
+          </div>
+          <div class="col-lg-8">
+            <p class="text-center">By Fremy Santana</p>
+          </div>
+          <div class="col-lg-2">
+          </div>
+
+          <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+          <script src="weatherApp.js"></script>
+        </div>
+      </div>
+    </body>
+    </html>
