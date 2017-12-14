@@ -1,0 +1,36 @@
+body { /*Scales photo to cover whole page without any repitition*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  
+  /*So that the text is easier to read regardless of the background photo.*/
+  h1, h2, p {text-shadow: 0px 0px 5px white;}
+  
+  p {font-weight: bold;}
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0; right: 0; left: 0;
+    width: 100%;
+    height: 55px;
+  }
+  
+  /*So that the API logo can be clearly seen regardless of the background photo.*/
+  .API {background-color: white;} 
