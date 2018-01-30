@@ -9,7 +9,11 @@ body { /*Scales photo to cover whole page without any repitition*/
   }
   
   /*So that the text is easier to read regardless of the background photo.*/
-  h1, h2, p {text-shadow: 0px 0px 5px white;}
+  h2, p {text-shadow: 0px 0px 5px white;}
+
+  h2 {
+    margin-top: 100px;
+  }
   
   p {font-weight: bold;}
   
