@@ -1,3 +1,3 @@
 # WeatherApp
 
-# My solution to the freeCodeCamp weather app project. This uses the DarkSky API to get the weather at the user's location.
+# Simple page that displays the user's local weather. This uses the browser's navigator interface and DarkSky.net's API to get the weather at the user's location.
