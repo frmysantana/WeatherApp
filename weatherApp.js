@@ -1,9 +1,6 @@
 /*Fremy Santana
 Last worked on: July 4, 2017
-Simple page that displays the weather at the user's location.
-Work in Progress: 
-1. Okay to use google images pictures? Maybe give credit to source in footer?
-Done as part of the FreeCodeCamp curriculum.*/
+Simple page that displays the weather at the user's location.*/
 
 $(document).ready(function() {
 var temperature;
@@ -78,9 +75,7 @@ var temperature;
     $.ajax({
         url: proxy + darkSkyLink + urlEnd, 
         success: function(data) {
-            var weather = data.currently.summary; 
-            //var temperature = Math.round(data.currently.temperature * 10.0)/10.0;
-            //Use with the constructor
+            var weather = data.currently.summary;
             temperature = new Temperature(data.currently.temperature);
             $("#weather").html(weather);
             $("#temperatureDisplay").html(temperature.getFahrenheit() + " &#176" + "F");
